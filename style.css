@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap');
+
+
+.imgsize{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 90%;
+}
+.imgsize1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height:  95%;
+}
+
+.logo{
+ 
+  display: flex;
+    justify-content: left;
+    align-items: left;
+    
+    padding-left:7%;
+}
+html{
+    font-size: 90%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+
+}
+body {
+    background-color: rgb(214, 211, 211);
+    margin: 10;
+    padding: 20;
+   
+}
+
+
+
+.navbar{
+    background-color: rgb(83, 82, 82);
+    text-decoration-color: aliceblue;
+    border-radius: 40px;
+    margin-top: 0;
+}
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: right;
+    list-style: none;
+    padding: 13px 20px;
+}
+
+
+.navbar li a{
+   text-decoration: none;
+   color: azure;
+    padding: 13px 20px;
+}
+.navbar li a:hover
+{
+    padding: 20 20;
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: rgb(2, 244, 244);
+}
+p{
+    float: left;
+    text-align: justify;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-family: 'Times New Roman';
+ 
+}
+h6{
+    float: right;
+    float: top;
+}
+img1{
+    float: right;
+
+}
+form{
+    align-items: center;
+}
+
+.homeabout{
+
+    margin-top: 25%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:  50%;
+} 
+.home h3{
+    margin-top: 7%;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    
+
+}
+/* -----------------------------contact form------------------------------ */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(251, 253, 255);
+  border: #8e44ad;
+  opacity: 1; /* Firefox */
+  
+}
+
+.contact h2{
+  margin-bottom: 3rem;
+}
+.contact form{
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color :var(--text-color);
+  background: var(--second-bg-color);
+  border-radius: .7rem 0;
+  
+}
+.contact form .input-box input{
+  width: 45%;
+  border-style: double;
+}
+
+
+/* homepage background */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+  background: #1abc9c;
+  background: linear-gradient(135deg, #1abc9c 0%, #8e44ad 100%);
+}
+
+h1 {
+  font-size: 3.9rem;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@-webkit-keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+ 
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite; 
+}
+
+
+/* typing */
+
+body {
+	background-color: #16a8f1;
+}
+
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+h1 {
+	position: relative;
+	color: #ffffff;
+	font-family: 'Yeseva One', cursive;
+	font-weight: bolder;
+	/* font-size: 100px; */
+}
+
+h1 span {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: linear-gradient(135deg, #1abc9c 0%, #8e44ad 100%);
+	width: 100%;
+	border-left: 10px solid transparent;
+	animation: typing 3s steps(20) forwards, cursor 1s infinite;
+}
+
+
+@keyframes typing {
+	from {
+		width: 100%;
+	}
+
+	to {
+		width: 0;
+	}
+}
+
+
